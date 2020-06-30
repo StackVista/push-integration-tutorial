@@ -1,0 +1,22 @@
+{
+  "events": {
+    "ExternalAlert": [
+      {
+        "msg_text": "This is an externally generated alert",
+        "msg_title": "Alert",
+        "source_type_name": "ExternalMonitor",
+        "tags": [
+          "alert_id:1234",
+          "alert_detail_url:some_url",
+          "host:host_fqdn",
+          "alert_level:error"
+        ],
+        "timestamp": ##TIMESTAMP##
+      }
+    ]
+  },
+  "internalHostname": "host_fqdn",
+  "metrics": [],
+  "service_checks": [],
+  "topologies": []
+}

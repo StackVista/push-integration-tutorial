@@ -1,0 +1,6 @@
+init_config:
+
+instances:
+  - name: "Example check 1"
+    min_collection_interval: 30
+    url: "example://example-1"
